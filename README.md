@@ -1,4 +1,4 @@
-# Awesome 30+ DevOps Projects
+# Awesome 25+ DevOps Projects
 
 ## 🚀 Overview
 
