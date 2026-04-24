@@ -16,26 +16,26 @@ Welcome to the **Awesome 27 DevOps Projects** repository! This is a comprehensiv
 9.  **[Automating User Management with Python](./09-python-user-management)** - Python for DevOps.
 
 ### 🟡 Intermediate (Scaling & Reliability)
-10. **Multi-Stage Docker Builds** - Optimizing images.
-11. **Deploying a 3-Tier Web App on AWS** - Scalable cloud architecture.
-12. **Kubernetes Ingress & Traffic Management** - Advanced networking.
-13. **Terraform Modules for Reuse** - DRY principles in IaC.
-14. **Ansible for Config Management** - Declarative server setup.
-15. **Jenkins Pipeline for Java/Maven** - Industrial CI/CD.
-16. **Helm Charts for K8s Package Management** - Managing complex apps.
-17. **AWS Lambda for Serverless Task Automation** - Event-driven DevOps.
-18. **Security Scanning in CI/CD (DevSecOps Intro)** - Automated security audits.
+10. **[Multi-Stage Docker Builds](./10-multistage-docker)** - Optimizing images.
+11. **[Deploying a 3-Tier Web App on AWS](./11-aws-3tier-app)** - Scalable cloud architecture.
+12. **[Kubernetes Ingress & Traffic Management](./12-k8s-ingress-controllers)** - Advanced networking.
+13. **[Terraform Modules for Reuse](./13-terraform-modules)** - DRY principles in IaC.
+14. **[Ansible for Config Management](./14-ansible-config-management)** - Declarative server setup.
+15. **[Jenkins Pipeline for Java/Maven](./15-jenkins-maven-pipeline)** - Industrial CI/CD.
+16. **[Helm Charts for K8s Package Management](./16-helm-charts-k8s)** - Managing complex apps.
+17. **[AWS Lambda for Serverless Task Automation](./17-aws-lambda-automation)** - Event-driven DevOps.
+18. **[Security Scanning in CI/CD (DevSecOps Intro)](./18-security-scanning-cicd)** - Automated security audits.
 
 ### 🔴 Advanced (Production Grade)
-19. **Production EKS Cluster with Terraform** - Enterprise K8s setup.
-20. **GitOps with ArgoCD** - Declarative CD for K8s.
-21. **Service Mesh with Istio** - Microservices observable & secure.
-22. **Zero-Downtime Deployments (Canary/Blue-Green)** - High availability.
-23. **Disaster Recovery Strategy for AWS** - Business continuity.
-24. **Kubernetes Operators** - Extending the K8s API.
-25. **Scaling Stateful Applications** - Database management on K8s.
-26. **Multi-Cloud Infrastructure (AWS + Azure)** - Hybrid cloud setups.
-27. **Full DevSecOps Pipeline** - The ultimate production workflow.
+19. **[Production EKS Cluster with Terraform](./19-eks-terraform-setup)** - Enterprise K8s setup.
+20. **[GitOps with ArgoCD](./20-argocd-gitops)** - Declarative CD for K8s.
+21. **[Service Mesh with Istio](./21-istio-service-mesh)** - Microservices observable & secure.
+22. **[Zero-Downtime Deployments (Canary/Blue-Green)](./22-canary-deployments-k8s)** - High availability.
+23. **[Disaster Recovery Strategy for AWS](./23-aws-disaster-recovery)** - Business continuity.
+24. **[Kubernetes Operators](./24-kubernetes-operators)** - Extending the K8s API.
+25. **[Scaling Stateful Applications](./25-scaling-stateful-apps-k8s)** - Database management on K8s.
+26. **[Multi-Cloud Infrastructure (AWS + Azure)](./26-multicloud-terraform)** - Hybrid cloud setups.
+27. **[Full DevSecOps Pipeline](./27-full-devsecops-pipeline)** - The ultimate production workflow.
 
 ---
 
