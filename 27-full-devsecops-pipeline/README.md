@@ -1,14 +1,19 @@
-# Project: full devsecops pipeline
+# Project: Full DevSecOps Pipeline
 
 ## Description
-Detailed explanation for full devsecops pipeline goes here.
+The ultimate DevOps project! This brings everything together into a single, high-security, high-automation pipeline that builds, tests, scans, and deploys an application to a production EKS cluster.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Integrate Linting, Unit Testing, and SAST (SonarQube).
+- Perform Container Image Scanning (Trivy).
+- Use GitOps (ArgoCD) for the deployment stage.
+- Implement automated Slack/Email notifications for pipeline status.
+- Ensure all secrets are managed securely (e.g., AWS Secrets Manager or HashiCorp Vault).
 
 ## Prerequisites
-- Tools required
+- All tools from previous projects (GitHub, Jenkins/GitHub Actions, EKS, ArgoCD, SonarQube)
 
 ## How to Run
-Steps to execute the project.
+1. Review the `complete-pipeline.yml` in the `solution` folder.
+2. Configure the necessary secrets in your CI/CD platform.
+3. Push a code change and watch the entire lifecycle from commit to production.
