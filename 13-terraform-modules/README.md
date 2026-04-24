@@ -1,14 +1,19 @@
-# Project: terraform modules
+# Project: Terraform Modules for Reuse
 
 ## Description
-Detailed explanation for terraform modules goes here.
+Writing repetitive IaC code is error-prone. This project demonstrates how to use Terraform Modules to create reusable infrastructure components, specifically for an EC2 Instance with a predefined security group.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Create a local Terraform module.
+- Define input variables and output values for the module.
+- Call the module from a root configuration.
+- Manage multiple environments (Dev/Prod) using the same module.
 
 ## Prerequisites
-- Tools required
+- Terraform installed
+- AWS credentials
 
 ## How to Run
-Steps to execute the project.
+1. Navigate to the `solution` folder.
+2. Explore the `modules/ec2-instance` directory.
+3. Run `terraform init` and `terraform apply` from the root directory.
