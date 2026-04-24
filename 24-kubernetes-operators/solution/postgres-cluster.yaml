@@ -1,0 +1,20 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: cluster-example
+  namespace: default
+spec:
+  instances: 3
+  
+  storage:
+    size: 1Gi
+    
+  bootstrap:
+    initdb:
+      database: app_db
+      owner: app_user
+      
+  postgresql:
+    parameters:
+      shared_buffers: "128MB"
+      max_connections: "100"
