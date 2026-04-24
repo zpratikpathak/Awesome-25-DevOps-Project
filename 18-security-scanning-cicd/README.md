@@ -1,14 +1,17 @@
-# Project: security scanning cicd
+# Project: Security Scanning in CI/CD (DevSecOps)
 
 ## Description
-Detailed explanation for security scanning cicd goes here.
+Security should not be an afterthought. This project integrates security scanning into a CI/CD pipeline using Trivy (for container image scanning) and SonarQube (for static code analysis).
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Scan Docker images for vulnerabilities using Trivy.
+- Perform Static Application Security Testing (SAST) with SonarQube.
+- Fail the pipeline if "High" or "Critical" vulnerabilities are found.
 
 ## Prerequisites
-- Tools required
+- Docker
+- A CI tool (GitHub Actions or Jenkins)
 
 ## How to Run
-Steps to execute the project.
+1. Run a local Trivy scan: `trivy image my-app:latest`.
+2. Review the `pipeline-example.yml` in the `solution` folder to see how to integrate these tools into GitHub Actions.
