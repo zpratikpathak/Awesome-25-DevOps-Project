@@ -1,14 +1,19 @@
-# Project: elk stack docker
+# Project: Centralized Logging with ELK Stack
 
 ## Description
-Detailed explanation for elk stack docker goes here.
+Managing logs across many services is difficult. The ELK Stack (Elasticsearch, Logstash, Kibana) provides a centralized way to search, analyze, and visualize log data.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Deploy Elasticsearch as a search engine.
+- Use Logstash to process and forward logs.
+- Use Kibana to visualize logs in real-time.
 
 ## Prerequisites
-- Tools required
+- Docker and Docker Compose installed
+- At least 4GB of RAM allocated to Docker
 
 ## How to Run
-Steps to execute the project.
+1. Navigate to the `solution` folder.
+2. Run `docker-compose up -d`.
+3. Wait for services to start (Elasticsearch takes a moment).
+4. Access Kibana at `http://localhost:5601`.

@@ -1,14 +1,19 @@
-# Project: python user management
+# Project: Automating User Management with Python
 
 ## Description
-Detailed explanation for python user management goes here.
+Automation is key in DevOps. This project uses Python to automate the creation and management of user accounts on a Linux system, demonstrating how to use Python for system administration.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Use the `os` and `subprocess` modules in Python.
+- Create users from a list in a text file.
+- Set default passwords and home directories.
+- Log successes and failures.
 
 ## Prerequisites
-- Tools required
+- Python 3.x installed
+- Root/Sudo privileges (since it modifies system users)
 
 ## How to Run
-Steps to execute the project.
+1. Navigate to the `solution` folder.
+2. Prepare a `users.txt` with names (one per line).
+3. Run the script: `sudo python3 user_manager.py`
