@@ -1,14 +1,17 @@
-# Project: bash health checks
+# Project: Automating System Health Checks with Bash
 
 ## Description
-Detailed explanation for bash health checks goes here.
+System monitoring is a core DevOps task. This project uses a Bash script to automate the checking of CPU usage, memory usage, and disk space on a Linux server.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Use shell scripting to gather system metrics.
+- Implement conditional checks for threshold warnings.
+- Output a clean report to the console or a log file.
 
 ## Prerequisites
-- Tools required
+- Linux/macOS environment (or WSL on Windows)
 
 ## How to Run
-Steps to execute the project.
+1. Navigate to the `solution` folder.
+2. Grant execution permission: `chmod +x health_check.sh`
+3. Run the script: `./health_check.sh`

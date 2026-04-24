@@ -1,14 +1,20 @@
-# Project: minikube setup
+# Project: Setting up a Local Kubernetes Cluster
 
 ## Description
-Detailed explanation for minikube setup goes here.
+Kubernetes is the industry standard for orchestration. In this project, you'll set up a local cluster using Minikube and deploy a simple Nginx application to understand Pods and Services.
 
 ## Objectives
-- Objective 1
-- Objective 2
+- Install and start Minikube.
+- Use `kubectl` to interact with the cluster.
+- Deploy an Nginx server.
+- Expose the deployment as a Service.
 
 ## Prerequisites
-- Tools required
+- Docker or a Virtual Machine manager (e.g., VirtualBox)
+- Minikube and kubectl installed
 
 ## How to Run
-Steps to execute the project.
+1. Start Minikube: `minikube start`
+2. Apply the deployment: `kubectl apply -f nginx-deployment.yaml`
+3. Apply the service: `kubectl apply -f nginx-service.yaml`
+4. Access the app: `minikube service nginx-service`
